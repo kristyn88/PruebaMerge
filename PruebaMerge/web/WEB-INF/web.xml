@@ -8,6 +8,14 @@
         <servlet-name>ServletPrimero</servlet-name>
         <url-pattern>/ServletPrimero</url-pattern>
     </servlet-mapping>
+  <servlet>
+        <servlet-name>ServletSegundo</servlet-name>
+        <servlet-class>ServletSegundo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletSegundo</servlet-name>
+        <url-pattern>/ServletSegundo</url-pattern>
+    </servlet-mapping>
     <session-config>
         <session-timeout>
             30
